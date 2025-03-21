@@ -1,3 +1,10 @@
+**Clona el repositorio**
+
+Lo primero que se debe de hacer es clonar el repositorio: 
+   
+   ```bash
+   git clone https://github.com/LuisAmezcuaDev/EjerciciosPrueba
+   ```
 # Ejercicios 
 Se creó un script por cada ejercicio que se realizo en la prueba. Para el script llamado "contarPalabras.py" se creo el archivo de texto "ejemplo.txt" para poder probar su funcionalidad
 
@@ -16,21 +23,17 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos instalados en t
 
 ## Instalación
 
-Sigue estos pasos para configurar el proyecto en tu entorno local:
+Configurar el proyecto en tu entorno local:
+Una vez clonado el repositorio, se deben de seguir los siguientes pasos
 
-1. **Clona el repositorio**
-
-   Primero, clona el repositorio en tu máquina local utilizando Git:
-   
-   ```bash
-   git clone https://github.com/LuisAmezcuaDev/EjerciciosPrueba
-
-2. **Crea un entorno virtual**
-
+1. **Crea un entorno virtual**
+    ```bash
     python -m venv .venv
-    Luego activa el entorno 
-
+    ```
+    Luego activa el entorno
+   ```bash
     .\.venv\Scripts\activate
+   ```
 
 3. **Aplica las migraciones**
     python manage.py migrate
@@ -41,7 +44,7 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 5. **Corre el servidor**
     python manage.py runserver
 
-5. **Uso de la apl**
+6. **Uso de la apl**
     Es necesario usar una herramienta que permita realizar pruebas con la api como Postman o thunder client en el editor de Visual Studio. Las direcciones son las siguientes
 
 - GET:
