@@ -53,10 +53,15 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
         "completada": false
     }
    - PUT: http://127.0.0.1:8000/api/tareas/{id a editar}/
+   
     Estructura del json {
+   
         "nombre": "Tarea de prueba",
+   
         "descripcion": "Descripción de la tarea",
+   
         "completada": false
-    }
-     - DELETE: http://127.0.0.1:8000/api/tareas/{id campo a eliminar}/
+   
+   }
+   - DELETE: http://127.0.0.1:8000/api/tareas/{id campo a eliminar}/
 
