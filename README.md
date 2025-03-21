@@ -44,18 +44,33 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 5. **Uso de la apl**
     Es necesario usar una herramienta que permita realizar pruebas con la api como Postman o thunder client en el editor de Visual Studio. Las direcciones son las siguientes
 
-   - GET: http://127.0.0.1:8000/api/tareas/
-   - GET by ID: http://127.0.0.1:8000/api/tareas/{id}
-   - PUSH: http://127.0.0.1:8000/api/tareas/
-    Estructura del json {
+- GET:
+   ```bash
+     http://127.0.0.1:8000/api/tareas/
+   ```
+- GET by ID:
+   ```bash
+   http://127.0.0.1:8000/api/tareas/{id}
+   ```
+- PUSH:
+   ```bash
+   http://127.0.0.1:8000/api/tareas/
+   ```
+    Estructura del json
+   ```bash
+   {
         "nombre": "Tarea de prueba",
         "descripcion": "Descripción de la tarea",
         "completada": false
     }
-   - PUT: http://127.0.0.1:8000/api/tareas/{id a editar}/
-   
-    Estructura del json {
-   
+   ```
+- PUT:
+   ```bash
+   http://127.0.0.1:8000/api/tareas/{id a editar}/
+   ```
+    Estructura del json
+   ```bash
+   {
         "nombre": "Tarea de prueba",
    
         "descripcion": "Descripción de la tarea",
@@ -63,5 +78,9 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
         "completada": false
    
    }
-   - DELETE: http://127.0.0.1:8000/api/tareas/{id campo a eliminar}/
+   ```
+- DELETE:
+   ```bash
+     http://127.0.0.1:8000/api/tareas/{id campo a eliminar}/
+   ```
 
